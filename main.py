@@ -280,6 +280,6 @@ def send_control_command(payload: dict):
 if __name__ == "__main__":
     import uvicorn
     print("==================================================")
-    print("🚀 SolarScan FastAPI Mission Control Server running at http://localhost:8000")
+    print("SolarScan FastAPI Mission Control Server running at http://localhost:8000")
     print("==================================================")
     uvicorn.run(app, host="0.0.0.0", port=8000)
