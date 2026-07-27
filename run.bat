@@ -1,11 +1,11 @@
 @echo off
 echo =========================================================
-echo 🚀 SolarScan Webots Drone Mission Control (FastAPI Server)
+echo SolarScan Webots Drone Mission Control (FastAPI Server)
 echo =========================================================
 
 :: Check if virtual environment exists
 if not exist .venv (
-    echo [INFO] Virtual environment (.venv) not found. Running environment setup...
+    echo [INFO] Virtual environment .venv not found. Running environment setup...
     call setup_env.bat
 )
 
